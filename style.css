@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  background: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+}
+
+#circle, .crcl{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: relative;
+  background-color: green;
+  background-size: cover;
+  animation: movement;
+}
+
+button {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  width: 7em;
+  height: 2em;
+  margin: 10px;
+  border: 2px solid whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+  button:hover {
+    background-color: floralwhite;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 5px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 1s;
+  }
+
+@keyframes movement {
+  0%{
+    left: 0px;
+    top: 0px;
+
+  }
+  5%{
+    left: 300px;
+    top: 200px;
+  }
+    10%{
+    left: 600px;
+    top: 100px;
+  }
+    15%{
+    left: 6%;
+    top: 600px;
+  }
+    20%{
+    left: 300px;
+    top: 600px;
+  }
+    25%{
+    left: 600%;
+    top: 400px;
+  }
+    30%{
+    left: 100px;
+    top: 0px;
+  }
+    35%{
+    left: 600px;
+    top: 200px;
+  }
+    40%{
+    left: 100%;
+    top: 500px;
+  }
+    45%{
+    left: 0%;
+    top: 600px;
+  }
+    50%{
+    left: 600px;
+    top: 600px;
+  }
+    55%{
+    left: 300px;
+    top: 200px;
+  }
+    60%{
+    left: 600px;
+    top: 100px;
+  }
+    65%{
+    left: 800px;
+    top: 600px;
+  }
+    70%{
+    left: 300px;
+    top: 600px;
+  }
+    75%{
+    left: 600px;
+    top: 400px;
+  }
+    80%{
+    left: 100px;
+    top: 0px;
+  }
+    85%{
+    left: 600px;
+    top: 200px;
+  }
+    90%{
+    left: 100px;
+    top: 500px;
+  }
+    95%{
+    left: 0px;
+    top: 600px;
+  }
+    100%{
+    left: 600px;
+    top: 200px;
+  }
+}
+
+.details {
+  float: right;
+  width: 400px;
+  height: 100vh;
+  position: relative;
+  background-color: green;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.ground {
+  float: left;
+}
+
+.level {
+  display: flex;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.display_score {
+  margin-top: 25px;
+}
